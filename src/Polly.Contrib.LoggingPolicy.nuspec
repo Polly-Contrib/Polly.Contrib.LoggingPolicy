@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <owners>App vNext</owners>
+    <authors>App vNext</authors>
+    <description>
+      Polly.Contrib.LoggingPolicy is a demonstration reactive custom Polly policy, to log faults and results the policy is configured to handle.
+    </description>
+    <language>en-US</language>
+    <license type="expression">BSD-3-Clause</license>
+    <iconUrl>https://raw.github.com/App-vNext/Polly/master/Polly.png</iconUrl>
+    <projectUrl>https://github.com/Polly-Contrib/Polly.Contrib.LoggingPolicy</projectUrl>
+    <copyright>Copyright © 2019, App vNext and contributors</copyright>
+    <releaseNotes>
+     0.1.0
+     ---------------------
+     - Initial launch
+   </releaseNotes>
+    <dependencies>
+      <group targetFramework="netstandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="Polly" version="7.0.0" />
+        <dependency id="Microsoft.Extensions.Logging" version="1.1.2" />
+      </group>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Polly" version="7.0.0" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\**\*.*" target="lib" exclude="**\*.unsigned" />
+  </files>
+</package>
