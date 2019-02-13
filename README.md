@@ -62,9 +62,9 @@ The policy in this repo differs in small ways from the blog post, as this repo o
 
 See our blog series:
 
-+ Part I: Introducing custom Polly policies and the Polly.Contrib
-+ Part II: Authoring a non-reactive custom policy (a policy which acts on all executions)
-+ Part III: Authoring a reactive custom policy (a policy which react to faults)
-+ Part IV: Custom policies for all execution types: sync and async, generic and non-generic
++ [Part I: Introducing custom Polly policies and the Polly.Contrib](http://www.thepollyproject.org/2019/02/13/introducing-custom-polly-policies-and-polly-contrib-custom-policies-part-i/)
++ [Part II: Authoring a non-reactive custom policy](http://www.thepollyproject.org/2019/02/13/authoring-a-proactive-polly-policy-custom-policies-part-ii/) (a policy which acts on all executions)
++ [Part III: Authoring a reactive custom policy](http://www.thepollyproject.org/2019/02/13/authoring-a-reactive-polly-policy-custom-policies-part-iii-2/) (a policy which react to faults)
++ [Part IV: Custom policies for all execution types](http://www.thepollyproject.org/2019/02/13/custom-policies-for-all-execution-types-custom-policies-part-iv/): sync and async, generic and non-generic
 
 And see the templates for developing custom policies: [Polly.Contrib.CustomPolicyTemplates](https://github.com/Polly-Contrib/Polly.Contrib.CustomPolicyTemplates).
