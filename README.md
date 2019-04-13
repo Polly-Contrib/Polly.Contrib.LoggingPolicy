@@ -49,7 +49,7 @@ The sole purpose of the policy is to log.  After logging, it bubbles faults furt
 
 ### Blog post example
 
-The policy is an example for the blog [Custom policies Part III: Authoring a reactive custom policy](LINK WHEN PUBLISHED).
+The policy is an example for the blog [Custom policies Part III: Authoring a reactive custom policy](http://www.thepollyproject.org/2019/02/13/authoring-a-reactive-polly-policy-custom-policies-part-iii-2/).
 
 The policy in this repo differs in small ways from the blog post, as this repo offers LoggingPolicy in all four combinations:
 
